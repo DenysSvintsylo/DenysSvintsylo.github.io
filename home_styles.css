@@ -1,0 +1,148 @@
+/* Застосування загального фону та шрифтів */
+body {
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    background-color: #f7f7f7;
+    margin: 0;
+    padding: 0;
+}
+
+/* Створення контейнера з відступами та тінню як на сторінці реєстрації */
+.content-container {
+    width: 100%;
+    max-width: 1000px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 4px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Стилізація заголовку та кнопки профілю */
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+h2 {
+    color: #333;
+    margin-right: 80px;
+    margin-top: 8px;
+    margin-left: 40px;
+    font-size: 30px;
+    font-weight: bolder;
+}
+
+.mall-container {
+    width: 100%;
+    max-width: 400px;
+    margin: 20px auto; /* Зменшив маржі для більшого простору між контейнерами */
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 4px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+}
+
+/* Стилізація списку торгових центрів */
+
+
+/* Стилізація блоку торгового центру */
+.mall {
+    background-color: #f9f9f9;
+    padding: 15px;
+    margin-bottom: 10px;
+    border-radius: 4px;
+}
+
+.mall h4 {
+    font-weight: bolder;
+    font-size: 20px;
+    text-align: center;
+}
+
+.mall h1 {
+    color: #4cae4c;
+    font-weight: bolder;
+    font-size: 20px;
+}
+
+.mall h3 {
+    font-weight: bold;
+    color: #666;
+    font-size: 18px;
+}
+
+.mall p {
+    color: #666;
+    font-size: 16px;
+}
+
+
+.profile-button {
+    padding: 8px 15px;
+    background-color: #28a745;
+    color: white;
+    text-decoration: none;
+    border-radius: 4px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-left: 10px;
+    float: right;
+}
+
+.profile-button-2 {
+    padding: 8px 15px;
+    background-color: black;
+    color: white;
+    text-decoration: none;
+    border-radius: 4px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    float: left;
+}
+.profile-button-2:hover {
+    background-color: #333; /* Новий колір при наведенні */
+    color: white; /* Новий колір тексту при наведенні */
+    text-decoration: none;
+}
+.profile-button:hover {
+    background-color: #28a745;
+}
+
+
+.no-malls {
+    text-align: center;
+    color: #999;
+}
+
+.add-button {
+    
+    padding: 8px 15px;
+    background-color: black;
+    color: white;
+    text-decoration: none;
+    border-radius: 4px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.add-button:hover {
+    background-color: #333; /* Новий колір при наведенні */
+    color: white; /* Новий колір тексту при наведенні */
+    text-decoration: none;
+}
+
+.image-container img {
+    margin-bottom: 10px;
+    max-width: 100%; /* Робить фото адаптивним */
+    height: auto;
+}
